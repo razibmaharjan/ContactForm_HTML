@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="heading">Contact Miles</h1>
+    <div class="box">
+      <form class="postion-form">
+        <input type="text" placeholder="Name" size="50" class="inbox" /><br />
+        <input type="text" placeholder="Phone" size="50" class="inbox" /><br />
+        <input
+          type="Email"
+          placeholder="Email"
+          size="50"
+          class="inbox"
+          id="inbox_email"
+        /><br />
+        <label for="inbox_email">Email:info@milesbesta.com</label>
+        <img
+          src="Resource/imap_image.png"
+          usemap="#image-map"
+          style="float: right"
+        />
+
+        <map name="image-map">
+          <area
+            target="_blank"
+            alt="github"
+            title="github"
+            href="https://github.com/"
+            coords="91,12,142,62"
+            shape="rect"
+          />
+          <area
+            target="_blank"
+            alt="linkein"
+            title="linkein"
+            href="https://www.linkedin.com/signup"
+            coords="170,10,224,64"
+            shape="rect"
+          />
+          <area
+            target="_blank"
+            alt="twitter"
+            title="twitter"
+            href="https://twitter.com/home"
+            coords="251,10,300,61"
+            shape="rect"
+          />
+          <area
+            target="_blank"
+            alt="facebook"
+            title="facebook"
+            href="https://www.facebook.com/"
+            coords="37,37,26"
+            shape="circle"
+          />
+        </map>
+        <textarea placeholder="MessageBox" id="mbox">Hello,</textarea><br />
+        <button type="submit" class="button">Send Message</button>
+      </form>
+    </div>
+  </body>
+</html>

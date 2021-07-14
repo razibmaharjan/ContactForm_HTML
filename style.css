@@ -1,0 +1,35 @@
+#heading {
+  font-weight: bold;
+  font-size: 65px;
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.postion-form {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.inbox {
+  height: 35px;
+  margin-bottom: 20px;
+}
+
+label {
+  float: left;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#mbox {
+  width: 380px;
+  height: 100px;
+  margin-right: -90px;
+}
+.button {
+  border: 2px;
+  margin-top: 15px;
+  padding: 10px 150px;
+  background-color: black;
+  color: white;
+}
